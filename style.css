@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "averta cy w10";
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #7fe876;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 910px;
+  height: 450px;
+  border: 4px solid #262182;
+}
+
+.headings {
+  display: flex;
+  gap: 500px;
+}
+
+.score {
+  text-transform: capitalize;
+  font-size: 25px;
+  margin: 10px;
+  font-weight: 900;
+  color: #262182;
+}
+
+.notExist {
+  font-weight: 900;
+  color: #262182;
+  text-transform: capitalize;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.text {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: #262182;
+  color: #7fe876;
+  font-weight: 25px;
+  text-transform: uppercase;
+}
